@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #000000;
+    background-color: #313131;
     color: #ffffff;
 
     font-size: 16px;
@@ -9,196 +9,78 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.box {
+    max-width: 750px;
+    margin: auto;
+    float: center;
+    text-align: center;
+  }
+
 a {
     color: #fff;
     text-decoration: none;
+    background-color: #3f3f3f;
+    border-radius: 4px;
+    padding: 3px 6px;
+    float: left;
+    -webkit-transition: all 0.3s linear;
+     
+    
+    
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #000000;
+    transition: all 0.03s linear;
+    color: rgb(143, 105, 0);
+    
+    	
 }
 
 a:active {
     color: rgb(167, 167, 167);
 }
 
-a:visited {
+/* a:visited {
     color: rgb(130, 130, 130)
-}
+} */
 
-.avatar {
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-}
-
-.info {
-     margin: 5px;
-     height: 400;
-     
-    
-    float: left;
-
-}
-
-.container {
-    max-width: 750px;
-    margin: auto;
-    float: center;
-    text-align: center;
-}
-
-.social {
-    color: rgb(255, 255, 255);
-    background: #10101088;
-    border-radius: 10px;
-    padding: 5px 0px 20px 0px;
-    margin: 15px;
-    box-sizing: border-box;
-    text-align: center;
-    float: center;
-}
-
-.projeckts {
-    color: rgb(255, 255, 255);
-    background: #1515156b;
-    border-radius: 10px;
-    padding: 5px 0px 20px 0px;
-    margin: 15px;
-    box-sizing: border-box;
-
-}
-
-.projeckts a:hover {
-    background: #3f3f3f;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 5px 6px;
-    tansition: all 0.3s linear;
-    	-webkit-transition: all 0.3s linear;
-    	-moz-transition: all 0.3s linear; 	
-    	text-transform: uppercase;  
-    
-}
 
 .fin {
-    margin: 400px 0px 50px 0px;
-}
-
-.faq div {
-    text-align: center;
-    padding: 50px 20px 30px 20px;
-    
-    
-
-    float: left;
-    /* border-left: #fff solid;
-    box-sizing: border-box; */
-    height: 90px;
-    width: 25%;
-
-}
-
-.srok {
-    border-left: #fff solid;
-    border-right: #fff solid;
-}
-
-#cena {
-    border: solid 2px;
-    border-radius: 7px;
-    font-size="1px"
-    align: left;
-    margin: 10px;
-    padding: 5px 5px;
-    
+    margin: 50px 0px 50px 0px;
 }
 
 
 
-.myknopka {
-    border: solid 2px;
-    border-radius: 7px;
-    padding: 20px 50px;
-    background: #10101088;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    
-    tansition: all 0.3s linear;
-    	-webkit-transition: all 0.3s linear;
-    	-moz-transition: all 0.3s linear; 	
-    	text-transform: uppercase;   
-        
-}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    }
+.rightimg  {
+   float: right; /* Выравнивание по правому краю  */ 
+   margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
 
-.myknopka:active {
-    background: #ff0c0c88;
-    /* tansition: all 0.01s linear;
-    	-webkit-transition: all 0.01s linear;
-    	-moz-transition: all 0.01s linear;  */
-} 
+   
+.fig {
+   text-align: center; /* Выравнивание по центру */ 
+  }
 
-.myknopka:hover {
-    background:rgb(85, 85, 85);
-    	-webkit-transition: all 0.03s linear;
-    	-moz-transition: all 0.03s linear; 
-} 
+  img {
+    transition: all 0.3s linear;
+    border-radius: 9px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  }
 
-/*  novaya knopka */
-.srok {
-    border: solid 2px;
-    border-radius: 7px;
-    padding: 12px 30px;
-    background: #10101088;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    
-    tansition: all 0.3s linear;
-    	-webkit-transition: all 0.3s linear;
-    	-moz-transition: all 0.3s linear; 	
-    	text-transform: uppercase;   
-        
-}
+  img:hover {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear; 
+    width: 100%;
+  }
 
-.srok:active {
-    background: #ff0c0c88;
-    
-} 
 
-.srok:hover {
-    background:rgb(85, 85, 85);
-    	-webkit-transition: all 0.03s linear;
-    	-moz-transition: all 0.03s linear; 
-} 
-/*  novaya knopka */
-.work {
-    border: solid 2px;
-    border-radius: 7px;
-    padding: 10px 30px;
-    background: #10101088;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    
-    tansition: all 0.3s linear;
-    	-webkit-transition: all 0.3s linear;
-    	-moz-transition: all 0.3s linear; 	
-    	text-transform: uppercase;   
-        
-}
 
-.work:active {
-    background: #ff0c0c88;
-    
-} 
+  
 
-.work:hover {
-    background:rgb(85, 85, 85);
-    	-webkit-transition: all 0.03s linear;
-    	-moz-transition: all 0.03s linear; 
-} 
+ 
